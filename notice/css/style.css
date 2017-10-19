@@ -1,0 +1,353 @@
+/*this is common style*/
+body{
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+}
+a:hover, a:visited, a:link, a:active {
+    color: #258dff;
+}
+footer, section{
+  width: 100%;
+  min-width: 1000px;
+}
+.section-content{
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.underline-title{
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.underline-title h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: #3a3f46;
+  display: inline-block;
+  padding: 0 20px;
+}
+.underline-title .draw-line{
+  width: 100%;
+  height: 16px;
+  border-radius: 10px;
+  background-color: #fff5bf;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+}
+.q-a{
+  font-size: 18px;
+  color: #000;
+}
+.q-a .answers{
+  color: #2773ff;
+}
+.q-a p:first-child{
+  margin-bottom: 20px;
+}
+.q-a a{
+	text-decoration: underline;
+	color: #fe521c;
+}
+
+/*this is header*/
+header .topbar{
+  height: 80px;
+}
+header .logo{
+  line-height: 80px;
+  float: left;
+  display: inline-block;
+}
+header .topbar-nav{
+  float: left;
+  margin-left: 60px;
+}
+header .topbar-nav li{
+  float: left;
+  margin-left: 30px;
+  line-height: 80px;
+}
+header .topbar-nav a{
+  width: 100px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  display: inline-block;
+  border: 1px solid #258dff;
+  border-radius: 5px;
+}
+header .topbar-nav a:hover{
+  background-color: #258dff;
+  color: #fff;
+}
+header .contact-us{
+  float: right;
+  line-height: 80px;
+}
+.contact-us img{
+  width: 32px;
+  height: 32px;
+  margin-right: 15px;
+}
+.contact-us a{
+  color: #a0a0a0;
+  font-size: 16px;
+  cursor: default;
+}
+
+
+/*this is banner*/
+.banner{
+  padding: 80px 0;
+  background: #5ea2ff url(../images/banner_bg.png) top center no-repeat;
+}
+.banner .title{
+  width: 100%;
+  height: 80px;
+  position: relative;
+}
+.banner .title img.plane{
+  position: absolute;
+  left: 25px;
+  top: 70px;
+}
+.banner .main{
+  margin: 90px auto 0;
+  border: 16px solid #fff5bf;
+  background-color: #f9da2d;
+  border-radius: 10px;
+  padding: 30px 90px;
+  position: relative;
+  box-shadow: 0 11px 7px rgb(71,138,255);
+}
+.banner .main h1{
+	color: #f69626;
+	font-size: 30px;
+	font-weight: bold;
+}
+.banner .main ul{
+	height: 66px;
+	line-height: 66px;
+	margin: 32px auto 0;
+	background-color: #fd7c21;
+	text-align: center;
+	border-radius: 30px;
+	box-shadow: 0 8px 1px #d39621;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+}
+.banner .main ul li{
+	float: left;
+	margin-left: 60px;
+}
+.banner .main .attention{
+  width: 640px;
+  height: 54px;
+  line-height: 54px;
+  margin: 32px auto 0;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #3c230c;
+  background-color: #f9eb13;
+  border-radius: 30px;
+  box-shadow: 0 6px 1px #ce8f17;
+}
+.banner .main .attention .keypoint{
+	color: #ff1f1f;
+}
+.banner .main img{
+  position: absolute;
+  width: 80px;
+  height: 110px;
+  left: -40px;
+  bottom: -54px;
+}
+.banner .rules{
+	margin-top: 90px;
+}
+.banner .rules .subtitle{
+  height: 37px;
+  margin-bottom: 32px;
+}
+.banner .rules .explain{
+	padding: 20px 100px;
+	background-color: #f9da2d;
+	border: 10px solid #fff5bf;
+	border-radius: 100px;
+}
+.banner .rules .explain label{
+	text-indent: 2em;
+	display: inline-block;
+	text-align: left;
+	font-size: 18px;
+	line-height: 30px;
+	color: #3c230c;
+	width: 680px;
+}
+.banner .rules .explain label .point{
+	color: #fe521c;
+	font-weight: bold;
+	font-size: 20px;
+}
+.banner .rules p{
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 2em;
+}
+.banner .rules p .point{
+  color: #fff718;
+  font-weight: bolder;
+}
+.banner .rules p .point .keypoint{
+  color: #ff0000;
+  font-size: 30px;
+}
+.banner .rules p.sub-explain{
+  font-size: 18px;
+}
+.banner .model{
+  margin: 70px auto 0;
+  width: 830px;
+}
+.banner .model .model-content{
+  width: 360px;
+  height: 100px;
+  padding: 50px 0 30px;
+  background-color: #278dff;
+  border: 1px solid #e1edf3;
+  border-radius: 10px;
+  position: relative;
+}
+.banner .model .model-content .title{
+  position: absolute;
+  width: 208px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #278dff;
+  text-align: center;
+  top: -20px;
+  left: 76px;
+  background-color: #E1EDF3;
+  border-radius: 30px;
+  box-shadow: 0 3px 8px #3772b4;
+}
+.banner .model .model-content .explain .explain-text{
+  line-height: 100px;
+}
+.banner .model .model-content .explain{
+  text-align: center;
+}
+.banner .model .model-content p{
+  font-size: 20px;
+  color: #fff;
+}
+.banner .model .model-content .sub-explain{
+  font-size: 16px;
+}
+.banner .model .model-content .attention{
+  color: #fffd39;
+  font-weight: bold;
+}
+.banner .model .model-content img{
+  margin: 15px 0;
+}
+
+/*this is questiions*/
+.questions{
+  background-color: #eff5fd;
+  padding: 60px 0;
+}
+.questions .main .q-a{
+  text-align: left;
+  width: 720px;
+  padding: 20px 70px;
+  background-color: #fff;
+  border: 1px solid #d4e1e7;
+  border-radius: 10px;
+  margin: 40px auto 0;
+}
+.questions .main .q-a:first-child{
+  margin-top: 50px;
+}
+
+
+/*如何使用改名卡*/
+.how-use{
+  padding: 60px 0;
+}
+.how-use .example{
+  width: 600px;
+  height: 65px;
+  line-height: 65px;
+  background-color: #ffcb17;
+  border-radius: 60px;
+  margin: 40px auto 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #301c0a;
+  position: relative;
+}
+.how-use .example span{
+  color: #301c0a;
+}
+.how-use .example .example_bg{
+  position: absolute;
+  width: 594px;
+  height: 26px;
+  bottom: -13px;
+  left: 0;
+  z-index: -1;
+}
+.how-use .example .arrow-right{
+  margin: 0 30px;
+  display: inline-block;
+}
+.how-use .main{
+  margin: 60px auto 0;
+  width: 750px;
+  text-align: left;
+}
+.how-use .main .fl{
+  margin-top: 30px;
+}
+.how-use .main .q-a{
+  width: 435px;
+}
+.how-use .main .q-a:not(last){
+  margin-bottom: 50px;
+}
+.how-use .main .bottom{
+  font-size: 16px;
+  color: #969696;
+  line-height: 2em;
+}
+.how-use .contact-service{
+  width: 190px;
+  height: 62px;
+  display: inline-block;
+  margin-top: 60px;
+}
+.how-use .contact-us{
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+}
+
+
+
+footer{
+  padding: 35px 0;
+  background-color: #5ea2ff;
+}
+footer .copyright{
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+}
